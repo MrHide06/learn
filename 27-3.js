@@ -225,3 +225,19 @@
 //     }
 //     console.log(baris);
 // }
+
+
+const num = ['2','3','4','5']
+const numStr = num.join(';');
+console.log(numStr);
+
+const buah = ['apple','orange','grape']
+buah.forEach((item,index,array)=>{
+    console.log(`ini isi item ${item}`);
+    console.log(`ini isi index ${index}`);
+    console.log(`ini isi array ${array}`);
+})
+
+const totalBuah = buah.map(item => item.length)
+
+console.log(totalBuah);
